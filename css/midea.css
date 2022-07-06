@@ -94,6 +94,21 @@
     }
 }
 @media(max-width:575px){
+    .banner-content {
+        padding: 100px 0;
+      }
+      .banner-content span {
+       font-size: 17px;
+    }
+    .banner-content h1 {
+        font-size: 38px;
+    }
+    .tures-contain p {
+        width: 80%;
+    }
+    .events h2 {
+        font-size: 38px;
+    }
     .tures-img{
         margin-bottom: 20px;
     }
