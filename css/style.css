@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0 ;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-toggler:focus {
+  
+    box-shadow: 0 0 0 transparent !important;
+}
+
+.btn-castom {
+    color: white !important;
+    background-color: #FB2050 ;
+    border-radius: 30px;
+    border: 2px solid #FB2050 !important;
+    padding: 8px 30px;
+   
+    font-weight: 500;
+}
+.btn-castom:hover {
+    border: 2px solid #FB2050 !important;
+    color: white ;
+    font-weight: bold;
+   
+  
+}
+
+/***header section ***/
+header {
+    background-image: url(..//images/5-top-treks-in-Garhwal-Himalayas-Hero-Image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center 45%;
+    background-color: #00000069;
+}
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+h6{
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+.navbar-brand:focus, .navbar-brand:hover {
+    color: #d5dfe1;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show.nav-link {
+    color: white;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.ho:hover{
+    color: #d5dfe1 !important;
+}
+
+
+.btn-heder {
+    border-radius: 30px;
+    padding: 7px 25px !important;
+    border: 2px solid;
+}
+
+.banner-content {
+    padding: 120px 0;
+    text-align: center;
+    color: white;
+   
+}
+.banner-content span {
+    margin-bottom: 50px;
+    font-style: italic;
+    font-size: 22px;
+    position: relative;
+}
+.banner-content span::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 20%;
+    border-radius: 30px;
+    background:#FB2050;
+    left: 50%;
+    bottom: -20%;
+    transform: translate(-50%, 20%);
+}
+.banner-content h1 {
+    margin: 30px;
+    font-size: 60px;
+}
+/***header section ***/
+/***events section ***/
+.events{
+    margin: 50px;
+}
+
+.events h2{
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+
+}
+.events h2::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 7%;
+    border-radius: 30px;
+    background:#FB2050;
+    left: 50%;
+    bottom: -20%;
+    transform: translate(-50%, 20%);
+}
+.apsan{
+    margin-top: 80px !important;
+}
+.event-banner{
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.event-banner:hover{
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.event-banner div {
+    padding: 0px 10px 20px;
+}
+.event-banner img{
+    width: 355px !important;
+    height: 220px;
+}
+.event-banner h3{
+    margin-top: 20px;
+    font-size: 24px;
+}
+.event-banner p{
+    font-size: 14px;
+}
+.event-banner a{
+    text-decoration: none;
+    color: #FB2050;
+    letter-spacing: 1px;
+    font-weight: 500px;
+}
+.event-banner svg{}
+
+/***events section ***/
+/***explore section ***/
+.explore{
+    background-image: url(..//images/how-to-choose-the-best-adventure-travel-tour-companies-3-1504752803.jpg);
+    
+  
+    background-blend-mode: darken;
+    background-position: center 45%;
+    background-color: #00000069;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 120px;
+}
+.explore-banner{
+    margin-top: 100px;
+}
+.explore-banner h1 {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    position: relative;
+}
+.explore-banner h1::after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 12%;
+    border-radius: 30px;
+    background:#FB2050;
+    left: 0;
+    bottom: -15%;
+    transform: translateY(15%);
+}
+.explore-banner p {
+    margin: 70px 0;
+    color: #ffffff;
+    font-size: 16px;
+    width: 92%;
+}
+.explore-banner a{
+    text-decoration: none;
+    color:#ffffff;
+    letter-spacing: 1px;
+    font-weight: bold;
+  
+}
+.explore-banner svg {
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+}
+
+/***explore section ***/
+/***tures section ***/
+.tures{
+    margin: 100px 0;
+}
+.tures-contain{}
+.tures-contain h2{
+    position: relative;
+}
+
+.tures-contain h2::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 15%;
+    border-radius: 30px;
+    background:#FB2050;
+    left: 0;
+    bottom: -15%;
+    transform: translateY(15%);
+}
+.tures-contain p {
+    margin-top: 50px;
+    font-size: 16px;
+    width: 303px;
+}
+
+.tures-contain a:hover{
+    color: #FB2050 !important;
+     font-weight: bold;
+}
+.tures-img div img{
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.tures-img img{
+    border-radius: 10px;
+}
+
+/***tures section ***/
+/***footer section ***/
+footer{
+    background-color: #222222;
+    padding: 20px 0;
+}
+.contact{
+    color: #ffffff;
+    text-align: center;
+  
+}
+.contact p{}
+.contact p a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.copyright{}
+.copyright p{}
+
+/***footer section ***/
